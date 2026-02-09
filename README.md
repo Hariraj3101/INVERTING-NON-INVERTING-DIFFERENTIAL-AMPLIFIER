@@ -1,0 +1,35 @@
+
+# DESIGN OF INVERTING, NON INVERTING AND DIFFERENTIAL AMPLIFIERS 
+# AIM:
+To design and construct a inverting, non- inverting and differential amplifiers.
+
+# APPARATUS REQUIRED:
+
+| S.No | Name of the Apparatus        | Range     | Quantity     |
+|------|------------------------------|-----------|--------------|
+| 1    | Function Generator           | 3 MHz     | 1            |
+| 2    | DSO                          | 30 MHz    | 1            |
+| 3    | Dual RPS                     | (0–30) V  | 1            |
+| 4    | Op-Amp                       | µA741     | 1            |
+| 5    | Bread Board                  | —         | 1            |
+| 6    | Resistors                    | 1K, 10K   | 2            |
+| 7    | Connecting wires and probes  | —         | As required  |
+
+# THEORY:
+Op-amp in open-loop configuration has a very few application because of its enormous open- loop gain. Controlled gain can be can be achieved by taking a part of output signal to the input with the help of feedback. This is called as Closed- Loop Configuration. The three basic types of closed-loop amplifier configuration are:
+1.	Inverting amplifier.
+2.	Non-inverting amplifier.
+3.	Differential amplifier.
+The entire configuration can be operated with either AC or DC input.
+INVERTING AMPLIFIER:
+This is the most widely used op-amp. Here, the output voltage Vo is feedback to the inverting input terminal through the Rf – R1 network. The negative sign in gain indicates the phase shift of 180ο.
+The circuit closed-loop voltage gain is Avcl= -RF / R1
+NON - INVERTING AMPLIFIER:
+If signal is applied to the non-inverting input terminal of op-amp without inverting the input signal such a circuit is called non-inverting amplifier. Here the output is feedback to the inverting input terminal. The phase shift of input signal does not occur in non-inverting terminal.
+The circuit closed-loop voltage gain is ACL = 1 + ( RF / R1)
+DIFFERENTIAL AMPLIFIER :
+A circuit that amplifies that amplifies the difference between two input signals is called as differential amplifier. It is useful in instrumentation amplifier. If the two input signals are the same, the output should be zero. Differential amplifier with a single op-amp has the exact gain of an inverting amplifier and it is given as
+
+# MODEL GRAPH
+<img width="952" height="1141" alt="image" src="https://github.com/user-attachments/assets/43e5af32-e918-43bd-aedf-61b79bb9d70c" />
+
