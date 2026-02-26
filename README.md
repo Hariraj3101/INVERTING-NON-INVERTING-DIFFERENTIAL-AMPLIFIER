@@ -45,7 +45,7 @@ A circuit that amplifies that amplifies the difference between two input signals
 ### TABULATION
 | S.No | Vin (volts) | Time (ms) | Vo (Theoretical) [V] | Vo (Practical) [V] |
 |------|-------------|-----------|-----------------------|---------------------|
-| 1    |             |           |                       |                     |
+| 1    |    f         |           |                       |                     |
 | 2    |             |           |                       |                     |
 | 3    |             |           |                       |                     |
 
